@@ -131,3 +131,53 @@ header {
 #quote cite {
     align-self: flex-end;
 }
+
+#cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta-box {
+    background-color: black;
+    color: cornsilk;
+    display: flex;
+    margin: 100px;
+    padding: 40px 75px;
+    border-radius: 15px;
+}
+
+#cta-content {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    gap: 10px;
+}
+
+#cta-content h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+}
+
+#cta-content p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+#cta-button {
+    background-color: cornsilk;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: black;
+    color: cornsilk;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+}
