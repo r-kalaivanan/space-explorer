@@ -108,3 +108,26 @@ header {
     height: 250px;
     border-radius: 15px;
 }
+
+#quote-section {
+    display: flex;
+    background-color: #2b2b2b;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", sans-serif;
+    color: cornsilk;
+    font-size: 25px;
+    width: 750px;
+    text-align: justify;
+}
+
+#quote cite {
+    align-self: flex-end;
+}
